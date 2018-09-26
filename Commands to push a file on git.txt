@@ -1,0 +1,65 @@
+$ cd Users/abhishek_pabitwar/workspace/LanguageFundamentals/src/
+$ ls
+ArrayFormation.java  com/  DisplayDemo.java  HelloWorld.java  pack/  SwingCounter.java
+
+abhishek_pabitwar@PPUD9116 MINGW64 ~/workspace/LanguageFundamentals/src (master)
+$ git init
+Initialized empty Git repository in C:/Users/abhishek_pabitwar/workspace/LanguageFundamentals/src/.git/
+
+abhishek_pabitwar@PPUD9116 MINGW64 ~/workspace/LanguageFundamentals/src (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ArrayFormation.java
+        DisplayDemo.java
+        HelloWorld.java
+        SwingCounter.java
+        com/
+        pack/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+abhishek_pabitwar@PPUD9116 MINGW64 ~/workspace/LanguageFundamentals/src (master)
+$ git add HelloWorld.java
+
+abhishek_pabitwar@PPUD9116 MINGW64 ~/workspace/LanguageFundamentals/src (master)
+$ git commit -m "hello world program"
+[master (root-commit) 94f7d34] hello world program
+ Committer: Abhishek Pabitwar <abhishek_pabitwar@persistent.co.in>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 10 insertions(+)
+ create mode 100644 HelloWorld.java
+
+abhishek_pabitwar@PPUD9116 MINGW64 ~/workspace/LanguageFundamentals/src (master)
+$ git remote add origin https://github.com/abieePabitwar/JavaProjects.git
+
+abhishek_pabitwar@PPUD9116 MINGW64 ~/workspace/LanguageFundamentals/src (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 341 bytes | 68.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/abieePabitwar/JavaProjects/pull/new/master
+remote:
+To https://github.com/abieePabitwar/JavaProjects.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'orig
